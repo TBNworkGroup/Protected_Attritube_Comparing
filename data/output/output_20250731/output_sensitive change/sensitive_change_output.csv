@@ -1,0 +1,23 @@
+"","taxonUUID","taxonRank","kingdom","simplifiedScientificName","new_iucn","protectedStatusTW","new_redlistTW","sensitiveCategory","sensitive","comparison_sensitive"
+"1","65253829-bc37-43ba-9033-3722241e9fbf","species","Animalia","Coris aygula","VU","","","","輕度",FALSE
+"2","9257f937-a5bb-427e-97a4-edc17c6441a6","species","Animalia","Aquila chrysaetos","LC","II","","","輕度",FALSE
+"3","d30e83f8-1e07-4549-8c5f-8e98fe9982a7","species","Animalia","Mobula japanica","EN","","","","輕度",FALSE
+"4","34b8e4bb-e743-4a9c-8df2-714d91af0170","species","Animalia","Dasyatis ushiei","VU","","","","輕度",FALSE
+"5","9e8d166a-c077-43fc-b599-d360e3629209","species","Animalia","Rhinobatos formosensis","CR","","","","輕度",FALSE
+"6","ca178842-256f-4d8d-9a4b-e9d0895b0333","species","Animalia","Centrophorus lusitanicus","EN","","","","輕度",FALSE
+"7","1b15da6b-2299-4647-b0cc-9b76d9bd5366","species","Animalia","Centrophorus granulosus","EN","","","","輕度",FALSE
+"8","4b366713-e73a-4da9-a691-d42d85365a11","species","Animalia","Stegostoma fasciatum","EN","","","","輕度",FALSE
+"9","753e5e65-e61b-4f35-93ed-9a82ac052a0b","species","Animalia","Cymbiola nobilis","EX","","","","輕度",FALSE
+"10","4b0f38c1-b6f8-471e-9d7e-8e510ec6ef42","species","Animalia","Millepora murrayi","EN","","","","輕度",FALSE
+"11","b74a5885-a88d-43b5-9a93-07787cc1f700","species","Animalia","Acropora danai","EN","","","","輕度",FALSE
+"12","876d481d-b826-416a-9742-fd7a8c39ad29","species","Animalia","Acropora rosaria","EN","","","","輕度",FALSE
+"13","f2600c6e-51ea-42cc-bd45-ae6d12541783","species","Animalia","Lophelia pertusa","VU","","","","輕度",FALSE
+"14","a10973e9-a5d0-4158-b18b-a009bf8b7295","species","Fungi","Armillaria matsutake","VU","","","","輕度",FALSE
+"15","d1a7c39c-4e12-4bd8-b5a6-2fd344dfb35c","infraspecies","Animalia","Calidris falcinellus sibirica","VU","","","","輕度",FALSE
+"16","01125462-4b56-411a-aa54-a3fcd4324da7","infraspecies","Animalia","Pachyrhynchus nobilis yamianus","","II","","","輕度",FALSE
+"17","3202dfd5-62aa-430f-aa2b-b666f144ca2d","infraspecies","Animalia","Pachyrhynchus sarcitis kotoensis","","II","","","輕度",FALSE
+"18","d7bc3d04-5be2-44a8-834a-cf5e5d566747","infraspecies","Animalia","Sasakia charonda formosana","","I","","","輕度",FALSE
+"19","f63b489a-0daf-4d23-a912-a8a3232d50aa","infraspecies","Animalia","Troides aeacus kaguya","","III","","","輕度",FALSE
+"20","1685f070-42f9-4252-8c42-f9e406600d27","infraspecies","Animalia","Troides magellanus sonani","","I","","","輕度",FALSE
+"21","02751597-aa53-4e53-a842-e262344e149e","species","Animalia","Hemitrygon bennettii","VU","","","","輕度",FALSE
+"22","e6a3dfc3-82eb-4727-bcb3-3673f7307f43","species","Fungi","Homophron spadiceum","VU","","","","輕度",FALSE

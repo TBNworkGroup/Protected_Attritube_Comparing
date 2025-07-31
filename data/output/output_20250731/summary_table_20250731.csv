@@ -1,0 +1,21 @@
+"TC_version","TT_version","folder_name","file_name","row_count"
+"20250630","20250731","output_namecheck","combine.table_namecheck .csv",696
+"20250630","20250731","output_namecheck","combine.table_nomatch.csv",322
+"20250630","20250731","output_namecheck","TT_selected_noID.csv",215
+"20250630","20250731","output_sensitive change","extra_taxon_sensitive_Animalia_TT.csv",35
+"20250630","20250731","output_sensitive change","sensitive_change_output.csv",22
+"20250630","20250731","output_sensitive change","TT_selected_light_sensitive_wrong.csv",14
+"20250630","20250731","output_redlistTW change","extra_date_redlistTW_Animalia_TT.csv",0
+"20250630","20250731","output_redlistTW change","extra_taxon_redlistTW_Animalia.csv",3
+"20250630","20250731","output_redlistTW change","extra_taxon_redlistTW_Plantae.csv",4411
+"20250630","20250731","output_redlistTW change","redlistTW_change_final_output.csv",1
+"20250630","20250731","output_redlistTW change","redlistTW_change_final_output_date.csv",0
+"20250630","20250731","output_redlistTW change","redlistTW_TRUE.csv",50490
+"20250630","20250731","output_IUCN change","extra_taxon_iucn_Animalia.csv",263
+"20250630","20250731","output_IUCN change","extra_taxon_iucn_Plantae.csv",1861
+"20250630","20250731","output_IUCN change","IUCN_change_final_output.csv",210
+"20250630","20250731","output_IUCN change","IUCN_TRUE.csv",50468
+"20250630","20250731","output_protected change","extra_taxon_protected_Animalia.csv",3
+"20250630","20250731","output_protected change","extra_taxon_protected_Plantae.csv",4
+"20250630","20250731","output_protected change","protected_change_final_output.csv",1
+"20250630","20250731","output_protected change","protected_TRUE.csv",50699
