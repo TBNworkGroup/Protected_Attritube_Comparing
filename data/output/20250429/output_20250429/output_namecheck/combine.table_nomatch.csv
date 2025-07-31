@@ -1,0 +1,301 @@
+"taxonUUID","taxonRank","taxon_id","simplifiedScientificName","kingdom","class","nativeness","endemism","protectedStatusTW","categoryRedlistTW","categoryIUCN","sensitiveCategory","categoryRedlistVersionTW","rank","new_simple_name","is_endemic","alien_type","new_iucn","new_redlistTW","new_protected","genus","specificEpithet","infraspecies"
+"7466a425-42e9-4ea4-ab98-6ba7dc0dfcb8","species","t0042611","Phanerochaete subodontoidea","Fungi","Agaricomycetes","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"c6bb727c-9c9f-4b29-a4a3-22758e04551b","species","t0079458","Cosella kadsuriae","Animalia","Arachnida","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fccc4606-182f-47e3-a0a4-6cf15486d651","species","t0079460","Cosella parvifloriae","Animalia","Arachnida","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7cfcf2d0-a1f5-4119-a565-385a41616f13","species","t0046797","Tarsonemus pallidus","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"410bdd3b-cb3a-4114-af76-9c3cc2c7c730","species","t0031592","Parasteatoda angulithorax","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58f6bbc5-68de-4818-80ea-25551ca4e20b","species","t0031593","Parasteatoda kompirensis","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3694d23f-0700-47e1-a870-cd84ca05cee1","species","t0083385","Parasteatoda lunata","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f0bc52a7-36e2-46a9-be03-0f03596fcced","species","t0099211","Toxeus magnus","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9eafa13e-a10c-407d-b40c-d4f0be442c29","species","t0030378","Cheiracanthium lascivum","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b1b0dc17-f9d2-4dc7-be64-1847197e6cad","species","t0030588","Clubiona japonica","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"305caac7-a116-46d8-9312-0220b6e47012","species","t0071100","Amblyomma breviscutatum","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dba8ef60-49c8-4707-a6f6-792dd04a9d14","species","t0071102","Amblyomma microplus","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"31cc9657-4543-4200-acc0-d43c2cde5746","species","t0064171","Gagrella grandis","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"baf0de17-634c-4fb1-923c-0c9584586670","species","t0096359","Metadentobunus formosae","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"da11bd42-3756-42cc-9240-999ab2c54d8d","species","t0036188","Plesionika quasigrandis","Animalia","Malacostraca","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"33a01639-f562-4b27-8b6b-cf20392e43d3","species","t0027202","Johnius dussumieri","Animalia","Actinopterygii","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64eed81e-c328-451b-9c52-095b48625234","species","t0027204","Johnius macrorhynus","Animalia","Actinopterygii","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ce3dc45b-359c-4642-8311-0e5c0a759d02","species","t0029001","Equulites leuciscus","Animalia","Actinopterygii","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7767a7d9-d6c3-40aa-9132-a9dec5f59426","species","t0050859","Equulites absconditus","Animalia","Actinopterygii","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4424d841-7a8f-4646-842e-4473be31b550","species","t0049952","Bathyclupea argentea","Animalia","Actinopterygii","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bc268fee-8f3a-4721-bea9-c2f23c19bfd6","species","t0056689","Uranoscopus oligolepis","Animalia","Actinopterygii","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"920ffc97-8d33-4f40-83bc-7d5bcfd50cae","species","t0101474","Opistognathus flavidus","Animalia","Actinopterygii","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3f59a1f3-60d6-4a18-9670-3d029c2938dc","species","t0033389","Thryssa hamiltonii","Animalia","Actinopterygii","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dd2065a2-1269-4233-96a6-95de7416fb25","species","t0051283","Halieutopsis ingerorum","Animalia","Actinopterygii","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bbdb904f-2e30-46b8-8dbd-56556c2cfd20","species","t0097825","Crithagra mozambica","Animalia","Aves","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"0f871b7a-9fca-4418-b8fa-acc05a9590ab","species","t0070134","Acridotheres leucocephalus","Animalia","Aves","non-native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fd76ff8a-1248-42cc-883d-80fbc9fd671b","species","t0098681","Pterorhinus sannio","Animalia","Aves","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b65f39d9-1fc7-4fca-bcfa-0715bce24ec4","species","t0097987","Dicrurus annectens","Animalia","Aves","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8f91eeda-7942-44e1-8a8b-67b05373ebe2","species","t0102342","Turdus mupinensis","Animalia","Aves","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73d95a5d-eb55-45b1-b371-8cc9a0abf823","species","t0097238","Helopsaltes certhiola","Animalia","Aves","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ef44ca84-ee02-4d56-8375-fad10efff288","species","t0037918","Riparia diluta","Animalia","Aves","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"c18dc704-201a-4a2b-9407-839141acbc60","species","t0084176","Phoenicopterus roseus","Animalia","Aves","native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37f0c327-4e6e-4dea-ba9f-61e3ea1da59e","species","t0098219","Ovophis monticola","Animalia","Reptilia","native","","II","NLC","LC","輕度","2024-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46107149-2b06-47d2-9c2d-ae3af5df5354","species","t0096426","Mogera insularis","Animalia","Mammalia","native","true","","NLC","LC","","2024-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"04f131e8-0372-4782-94cc-bd93f6b3cea9","species","t0101489","Meretrix lusoria","Animalia","Bivalvia","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6f4a6ba3-c2e3-4f26-b021-04b4c8e941fd","species","t0101489","Meretrix meretrix","Animalia","Bivalvia","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2a9ea413-6c1c-41f4-9d0a-5cecb5c0757a","species","t0101489","Meretrix petechialis","Animalia","Bivalvia","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4172b6a1-fcf4-4c9c-80fb-204afd9b225b","species","t0096619","Unio douglasiae","Animalia","Bivalvia","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49089cca-9a11-4898-81c3-8c0c96e6b6cc","species","t0079144","Conus chaldeus","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"36939f7a-a0b6-4e21-bc03-52809bba5305","species","t0061407","Deroceras varians","Animalia","Gastropoda","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8217ff28-809c-4de8-848e-23095b66c46d","species","t0097473","Camaena succincta","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"db3b44fb-c723-4a0e-b58c-b5762f9733a3","species","t0100057","Aphanoconia hungerfordiana","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40c59304-db37-4090-af28-0ae4b0fc808c","species","t0100058","Aphanoconia hungerfordianum","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"146d85d9-e9f4-4495-a1ea-f2134eff2bce","species","t0077641","Caulastrea furcata","Animalia","Hexacorallia","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ac69dcea-5c74-4a17-ab06-fccb61d59256","species","t0077642","Caulastrea tumida","Animalia","Hexacorallia","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"054e7c2b-fd8c-412e-9a15-84fdce8a92fe","species","t0077640","Caulastrea echinulata","Animalia","Hexacorallia","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20d0b714-3cab-4a18-80f4-be2fd02354c8","species","t0103294","Sarcophyton taiwanianum","Plantae","Spermatopsida","native","","","DD","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6b78b501-ae66-458f-91e5-d20bec1ee674","species","t0097392","Brachionus calyciflorus","Animalia","Monogononta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e90f6958-579d-40f0-96e9-3790b324ba08","infraspecies","t0096359","Metadentobunus formosae formosae","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6e2c5d5f-ed42-4943-b505-66fe69435587","species","t0103444","Emberiza personata","Animalia","Aves","native","","","NLC","","","2024-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1f7663d2-62ae-49d2-ad7d-758ff643c641","infraspecies","t0102387","Sinosuthora webbiana bulomacha","Animalia","Aves","native","true","","NEN","LC","輕度","2024-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"a16f0b8d-92b3-4dd5-9e0b-65df3699c9e9","infraspecies","t0103598","Prinia striata striata","Animalia","Aves","native","true","","NLC","","","2024-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16c9bead-2341-4312-a72d-802abfe67803","infraspecies","t0101012","Jynx torquilla torquilla","Animalia","Aves","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"c02dc244-6ec4-40bf-bc35-5493d7390081","infraspecies","t0099066","Tamiops maritimus formosanus","Animalia","Mammalia","native","true","","NLC","","","2024-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"329f1de6-1e3f-49e2-a8bb-7b8cada93e11","infraspecies","t0096619","Unio douglasiae taiwanicus","Animalia","Bivalvia","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e75401c6-5dcb-4c70-8760-a39e276f74e0","infraspecies","t0086187","Pteropurpura adunca expansa","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f3638514-0258-4bed-80cf-325c4d2f2cd5","infraspecies","t0102854","Cerithidea cingulata microptera","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ef3557ae-4785-4507-904a-f00cba333831","infraspecies","t0102860","Cerithidea cingulata cingulata","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7e9e2582-3d53-4691-a01a-c6495a0a5fe0","infraspecies","t0086091","Phalium bisulcatum pila","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7ff5ac80-e865-4e60-b268-b48dcd44e565","species","t0076391","Bembidion rufotibiellum","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"591bed69-2020-4c68-a01f-d00619ca6948","species","t0076396","Bembidion taiyuanense","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dd7a1359-5fc9-4387-bc3b-3cb52d687a24","species","t0076399","Bembidion varium","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"075cd4eb-c8a1-4794-ae15-2065b38f35df","species","t0100226","Bembidion tenellum","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"051ce713-0e6a-477e-aeb5-b9f6ed351cda","species","t0083705","Csikia dimatoides","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dd642f24-892c-4bb6-8419-7dfc806e05da","species","t0083705","Penia babai","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"97c8c284-79b4-4793-b4ae-d51d3cc7ea8c","species","t0037319","Pterolophia (Pterolophia) variantennalis","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73b075e1-bde0-4911-bab6-a96d56db18c6","species","t0070774","Alesia discolor","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f5f4616e-d192-4303-8721-bd26126a4ff1","species","t0082896","Pania luteopustulata","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8d5a2fb7-57dc-4bf3-8c20-2556e8645456","species","t0032861","Singhikalia subfasciata","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f213a485-1115-49e1-8a2b-95decd33433a","species","t0099517","Anomala hualienensis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fffc00b2-1c95-4625-8e9d-271f7bc48b1b","species","t0099021","Synapsis davidi","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13d113c4-6385-497f-be18-f2b613e1e688","species","t0070406","Aegus philippinensis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34bc3db2-9516-428d-bb99-1c36271699b5","species","t0102410","Cyclommatus scutellaris","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b91366e8-8d5f-482e-b5fc-b178cc7a48b1","species","t0105413","Cyclommatus asahinai","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"573811aa-2fef-42c2-a4b5-661723e45a55","species","t0096773","Dorcus curvidens","Animalia","Insecta","native","","III","","","輕度","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2b60aa8a-9f63-4460-a9bc-ee19e48503c5","species","t0096776","Dorcus striatipennis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8f1de207-2ccb-4db1-81d6-236ee8486ab2","species","t0102459","Dorcus titanus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21a991a1-04ce-43a2-bba9-680f85a115da","species","t0081612","Nigidius lewisi","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"336b464e-415e-4a71-b615-e49a783a7f45","species","t0070606","Agraphydrus orientalis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bbe2241c-a9dd-4c27-8afb-81b91484d398","species","t0039387","Sphaeridium dimidiatum","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"757ddd53-837a-48b6-ad7a-91e324230eb3","species","t0070641","Agrilus planipennis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7c1589e6-feed-4b2d-9ad6-cf7335675adf","species","t0096879","Eobia curticornis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b4caa838-9638-4682-bc1f-eed82aa085d8","species","t0098781","Sarcinodes yaeyamana","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2079a865-8250-4fd3-b0fe-c5f67f02e5ae","species","t0096338","Melanthia catenaria","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80372e31-feeb-4917-a4c6-74fa28d54820","species","t0098235","Ozarba uberosa","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9d8a9dee-0be4-4741-a053-09b20768ce2f","species","t0051377","Hilarographa calyx","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67b55d4c-340c-4b25-8e06-273aa3b0a756","species","t0100092","Arctornis l-nigrum","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"415878f1-ba09-476c-91e6-7d5e6fb949d0","species","t0099135","Theretra nessus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"cef1e7a7-857b-4f16-a53a-22969fb53b9c","species","t0049893","Autocharis fessalis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"438f5f34-9533-4e60-9afa-4cc06e64c9a3","species","t0050573","Deuterocopus triannulatus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67521363-75c7-4b6d-997c-ae1d55a3c226","species","t0098006","Neope muirheadii","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f6fa8f2d-f783-48cc-bba1-af2dd4b0eea1","species","t0062845","Epiacanthus guttiger","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"53e6e95d-2de2-462a-bf9b-f9e477f1aa5d","species","t0066359","Ishidaella albomarginata","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"a40a21a7-0286-4c9a-bc7b-b9f15a302fc9","species","t0069099","Metalimnus formosus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8cb3c793-2869-4420-8ce0-9fc45d48547b","species","t0101342","Tettigella formosana","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bc5b7480-2e8a-42df-9e75-11ee2debfd42","species","t0101911","Tettigella hoozanensis","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7e7b3556-88e8-4084-9137-55b65141388a","species","t0076180","Balclutha akonis","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"d5d98b2d-51a1-442a-b2a7-66d4ee2e903f","species","t0076182","Balclutha laevis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8b4c13a4-5339-4ccc-ac70-5baf25a70f38","species","t0076184","Balclutha orientalis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"d89dc682-0da3-4711-a563-3bab449648dd","species","t0076184","Balclutha pallidula","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8af8e5ea-37ef-4333-a168-b8c6765ff5b3","species","t0076180","Balclutha incisa","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"282b1634-1f68-46d2-85ea-fcac363870d7","species","t0076182","Balclutha lucida","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bc7da648-0a91-44c1-ad90-4bc7000394b4","species","t0104534","Exitianus simillimus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"03cdad10-c3b1-4bdb-86e9-967473eb9c16","species","t0065650","Hishimonus disciguttus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e958e3d2-59d6-4bf6-8fdc-6d86cd010eae","species","t0065650","Hishimonus sellatus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9da421e4-f5f6-482b-8ad4-9def24920b22","species","t0082975","Thomsoniella concentralis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4827564f-85e6-4479-a7c3-70c01b3300f8","species","t0084251","Geisha mariginellus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fd54846d-b6e4-462f-9779-d4a3efc15147","species","t0084251","Phylliana alba","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ef869254-4823-4e74-970d-784e3a9f3ac5","species","t0099186","Epiclinata planata","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54af3d89-5d30-41a8-9e21-35576a1d5bde","species","t0082975","Parabolocratus concentricus","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bbd45e25-22ef-4afa-bc62-c337b6e95277","species","t0068131","Lycorma delicatula","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60f2f8c5-e2f9-4094-9c68-b1eba4bfed4e","species","t0037496","Pyrops spinolae","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10be98b4-6b54-46b9-b7c0-9fda8ef5ee11","species","t0049082","Zanna chinensis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9f9ae253-2519-40b3-8da2-6f10cab00d67","species","t0102400","Aedes (Scutomyia) albolineatus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"18f4d59e-6bb1-4cdd-a593-60dd54e881ae","species","t0047477","Tipula nigrorubra","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3281eb02-c6d5-4c2a-ac76-b21a50fa277b","species","t0047488","Tipula ruformedia","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2c5e7f53-0301-4836-9fce-b49818b08472","species","t0033282","Teleopsis quadriguttata","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b2e9738c-34d3-4aa5-bab2-f782485010d5","species","t0076191","Baliga brunneipennis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4410ea39-bf58-48a0-82d6-e424918cf108","species","t0076192","Baliga eurystictus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8d9d62c3-1407-4529-a575-994f53344848","species","t0076194","Baliga ochraceopennis","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1625de07-f56e-48a4-9f4c-012543281830","species","t0080830","Myrmeleon alticola","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fca1ca98-7c8c-461e-8967-f9e4994b274b","species","t0080837","Myrmeleon wangi","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3259db88-c351-4444-a86e-376377a14943","species","t0065582","Hierodula (Hierodula) bipapilla","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"522b1e41-6387-42c8-b0bd-08f6bd8d6a7f","species","t0065582","Hierodula (Hierodula) patellifera","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7fd50064-3e01-4218-8b40-15e33366c525","species","t0065582","Hierodula (Hierodula) saussurei","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"01026e8a-5f3d-45c9-b4a9-a3fd5ccddb7d","species","t0046932","Tenodera capitata","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141722fa-203d-445b-b184-70c1aa11caa6","species","t0069466","Mitius splendens","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7c28ca48-33ba-4c6f-8696-7d9e28004a6f","species","t0096638","Velarifictorus ornatus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ac643785-c439-4283-9ea1-07208fda37d0","species","t0103602","Sigmella schenklingi","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fb527ee9-f7d7-4494-aff3-cdc1081c844d","infraspecies","t0085332","Bembidion tenellum pseudoplaga","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e8f30a45-bf0c-4c2e-935f-0d5756f49234","infraspecies","t0085630","Eobia curticornis diversithorax","Animalia","Insecta","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e9092246-8e13-42ae-ab89-3e4b36913393","infraspecies","t0098550","Pogonopygia pavida pavida","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8674c679-fdc1-4732-823a-ba197e71bb8a","infraspecies","t0101038","Neope muirheadii nagasawae","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dea2c452-aa47-4bba-88e3-ca7edf080ae0","infraspecies","t0086416","Velarifictorus ornatus ornatus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b657481f-6cbc-45f4-a21b-542afb741da9","species","t0103622","Didymoglossum motleyi","Plantae","Polypodiopsida","native","","","NNT","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6231824b-4c12-4333-9736-9e33499fc58f","species","t0105401","Hypolepis polypodioides","Plantae","Polypodiopsida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"c5b7deda-1399-449e-afb1-70f1f5e18c7f","species","t0105400","Dennstaedtia zeylanica","Plantae","Polypodiopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"155ef9f6-b7fb-4d2c-a6e6-c4120c1f161e","species","t0105402","Polystichum stenophyllum","Plantae","Polypodiopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1011c54c-da49-4584-9955-41ac773113d4","species","t0100505","Tectaria rockii","Plantae","Polypodiopsida","native","","","DD","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"07357ff7-55bf-443d-813d-0fdf048b45e9","species","t0103261","Halophila beccarii","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"eddadc59-2eb1-43d4-8ff1-255bdd6c13cc","species","t0053324","Dendrobium goldschmidtianum","Plantae","Spermatopsida","native","","","NNT","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ebe10d87-f5f1-4dbb-95ab-40c87bb11c79","species","t0103367","Tainia cordifolia","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"aea6caf1-569c-47e0-9a97-aa300d9da360","species","t0103300","Vrydagzynea formosana","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"04f104cd-3ae2-4119-a23d-4e01bc4c6543","species","t0102219","Heteropolygonatum altelobatum","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"04825583-4cd7-4718-beb7-37c6bc652eb5","species","t0054733","Peliosanthes teta","Plantae","Spermatopsida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"222e9a92-9980-4a2f-bb30-b41297341f68","species","t0100777","Hellenia speciosa","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11903038-2008-4287-8050-540fd1a87d2d","species","t0086795","Eriocaulon nepalense","Plantae","Spermatopsida","native","","","NCR","","重度","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f5218aac-9b2e-46f0-9c59-73965a1c583f","species","t0103239","Carex jisaburo-ohwiana","Plantae","Spermatopsida","native","","","NNT","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"736548a7-8b3b-404a-ae39-7881876e4dbe","species","t0103328","Carex rochebrunii","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b91f6cea-f9ad-4fbd-9456-c3dd2c7d3424","species","t0100800","Cyperus cyperinus","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f7f8187c-52ae-4a47-be5e-0fbe9ec1d4eb","species","t0103288","Cyperus pedunculatus","Plantae","Spermatopsida","native","","","DD","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"db540942-aeaf-4680-99df-4ce5ed5bd70b","species","t0103415","Fimbristylis tainanensis","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6925b161-1ed4-47df-a2b4-2f9d2bc749d3","species","t0103234","Bromus rigidus","Plantae","Spermatopsida","non-native","","","NA","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2b4c008c-9dd4-4f49-b4e3-1ae4da8a8143","species","t0103243","Cyrtococcum accrescens","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"cd4fe28a-ae9f-4bcf-b825-80d9fd947c13","species","t0103284","Oryzopsis obtusa","Plantae","Spermatopsida","native","","","NCR","","重度","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bca3eef1-b604-44d8-af07-4d814f7a2485","species","t0103419","Paspalum commersonii","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8d30b81a-a428-4124-a492-82a5d9a17f2c","species","t0054483","Mnesithea laevis","Plantae","Spermatopsida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"d35bd498-e47f-488a-bbe4-272360e6bd33","species","t0103233","Berberis mingetsuensis","Plantae","Spermatopsida","native","true","","NCR","","重度","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"c3d4e200-d07d-4f60-9e0e-a1d65e086070","species","t0102309","Dichocarpum adiantifolium","Plantae","Spermatopsida","native","true","","NNT","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85882c96-7d04-413b-9d89-7ec858e672eb","species","t0103267","Kalanchoe spathulata","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"d2c0648a-fe37-4a41-85f7-d6919c6d17ec","species","t0103245","Derris canarensis","Plantae","Spermatopsida","native","","","NEN","","重度","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"a476103e-c667-4783-aacd-e6e5a4cd016b","species","t0101390","Entada koshunensis","Plantae","Spermatopsida","native","","","NEN","","重度","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6936d03f-50ba-403d-90a2-a2b906f19738","species","t0100315","Indigofera hendecaphylla","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ee943a20-4c4e-42cd-918b-cb4cebbcccf9","infraspecies","t0103422","Pourthiaea villosa chingshuiensis","Plantae","Spermatopsida","native","","","DD","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"c168c53d-8f3d-4701-98c9-c6a0779a456c","infraspecies","t0103423","Pourthiaea villosa parvifolia","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5dc0cf90-7097-4144-baa9-06755812063d","species","t0053488","Elaeagnus pungens","Plantae","Spermatopsida","non-native","","","","LC","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"0ee8b56b-fe58-426f-b015-1da9259c509a","species","t0052911","Celtis julianae","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47651f62-7ba1-491e-9843-2c7fec344540","species","t0086813","Ficus pandurata","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"454bdbaf-f038-43c9-a911-36b8fcfa9507","species","t0103232","Begonia aptera","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bbb1807f-2283-44f3-9e32-14c0b54ead48","species","t0052702","Begonia grandis","Plantae","Spermatopsida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"cbb7c6a6-e35d-4049-9be3-042b4fffd331","species","t0103262","Hypericum nagasawae","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b57a59cb-2a95-439b-8708-39e487865c23","species","t0101588","Salix babylonica","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9a6d2f08-0483-456e-901c-fb00986ea933","species","t0103400","Synostemon bacciformis","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ab08f3a1-ab2e-4b93-bdfc-ebfe2aa18593","species","t0086803","Corymbia citriodora","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47e3f669-371f-4a44-8eec-678284fdc04b","species","t0103272","Pachycentria formosana","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81781d5c-6b99-4fc6-b7fb-db6500fe5549","species","t0103246","Euphoria longana","Plantae","Spermatopsida","non-native","","","NA","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"a9c92fef-aef7-432e-9716-f11094d17908","species","t0103293","Sapindus mukorossii","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b8537fe6-cb94-4200-9260-8fae498bb9f2","species","t0102273","Taxillus liquidambaricolus","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"a674a78c-a94a-47d9-b564-3ae07fdb78e7","species","t0100877","Persicaria senticosa","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"db261f71-66ca-432e-aecf-ef1a88cfa419","species","t0055170","Rumex microcarpus","Plantae","Spermatopsida","non-native","","","NA","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"231eb538-ff68-4df9-bf92-796738c06b32","species","t0102238","Drymaria cordata","Plantae","Spermatopsida","non-native","","","NA","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e4ed96cf-133a-4854-9acd-76984fb37ac2","species","t0103289","Rhododendron kanehirae","Plantae","Spermatopsida","native","true","","EW","EW","輕度","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b0cf8a31-fb98-4d45-9ae1-0592f93a7547","species","t0087646","Galium spurium","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70cf55ca-1fa2-4399-a586-2cfe74f2741b","species","t0103237","Canthium gynochodes","Plantae","Spermatopsida","native","","","NNT","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b468c49a-6254-4577-a53b-8fdf0907cf20","species","t0103403","Urceola rosea","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5dd3efbd-443f-47f6-865f-50bbf2f7d28c","species","t0053915","Heliotropium strigosum","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e3be1d31-c369-4e77-b6a5-debb78f6b160","species","t0103329","Ehretia microphylla","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"db646408-e267-4724-809c-c8e2fde51812","species","t0052800","Capsicum annuum","Plantae","Spermatopsida","non-native","","","NA","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"678ed632-6090-40cc-963d-b2dd1b4fb488","species","t0105495","Lycopersicon esculentum","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79738ded-71a5-4a1e-8895-d3ce7f1d82e8","species","t0074595","Lindernia vitacea","Plantae","Spermatopsida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"408f0c1a-9628-408d-ae47-f8aabe50277c","species","t0052547","Ajuga bracteosa","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5337aa9c-99ba-48b6-969e-9b19e2292896","species","t0084600","Kalimeris hispida","Plantae","Spermatopsida","non-native","","","NA","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fbcd25ae-d6e2-4cb8-b6d0-8c3d5abf2e0c","species","t0040223","Aralia armata","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"44d91696-6ca7-4605-9738-a44facfe9c7c","infraspecies","t0101590","Smilax planipedunculata plenipedunculata","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46501820-9c60-41d1-bddd-cce84a1d742d","infraspecies","t0102277","Musa basjoo formosana","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17059362-ffb0-4dc5-9ab2-d2d389b02f08","infraspecies","t0105388","Oplismenus undulatifolius undulatifolius","Plantae","Spermatopsida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20a42130-5aaa-4c71-8642-b27dccd147d8","infraspecies","t0103280","Panicum curviflorum suishaense","Plantae","Spermatopsida","native","","","NCR","","重度","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"d88e0b39-5532-4786-af9f-d8751dca6556","infraspecies","t0069609","Thalictrum urbainii urbainii","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e88dc28f-7b4a-431e-a7f7-c7da4bba9f1d","infraspecies","t0105389","Desmodium heterocarpon heterocarpon","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b9d3982c-c5e2-444b-8698-48cfb46e03a8","infraspecies","t0103254","Ficus aurantiaca parvifolia","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"29353622-c717-4439-82e6-6deb9a04d85b","species","t0103255","Ficus subpisocarpa","Plantae","Spermatopsida","native","","","NLC","LC","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f80f23a1-bcd0-434a-bece-1b93ef1e6871","infraspecies","t0086811","Ficus pandurata angustifolia","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"c2fa421a-159d-4487-b2a9-892c0652fd64","infraspecies","t0086812","Ficus pandurata holophylla","Plantae","Spermatopsida","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"09d4afee-4f53-4fae-8b8f-80f226909d4c","infraspecies","t0101131","Oxalis acetocella griffithii formosana","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f1e5b507-bdc7-4fe5-99c3-fe816bd5fc61","infraspecies","t0102317","Acer buergerianum formosanum","Plantae","Spermatopsida","native","true","","NCR","","重度","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3ddccc5a-23c6-473e-9dda-5ab31a176a4b","infraspecies","t0087659","Raphanus raphanistrum sativus","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ad9ec200-bf6f-4280-93e8-d2328ae09a03","infraspecies","t0105509","Styrax formosanus formosanus","Plantae","Spermatopsida","native","true","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e4ec5821-5843-41c8-bca3-1b4a9be8b6ff","infraspecies","t0101618","Actinidia callosa discolor","Plantae","Spermatopsida","native","","","NLC","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7b592e39-18a3-43dc-9865-f851d6dcfc74","infraspecies","t0086561","Conandron ramondioides taiwanensis","Plantae","Spermatopsida","native","true","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73309fb6-51df-46b7-8ce5-db0ba89d891a","infraspecies","t0087660","Rhynchotechum discolor incisum","Plantae","Spermatopsida","native","","","NA","","","2017-12-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34520b3f-7a64-40ea-b3a3-032c9e3e49ac","species","t0060725","Navicula cari","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25bc1053-8875-4ee4-8cd8-f2565aefbd1f","species","t0060728","Navicula heufleri","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f44fc401-ca96-4335-8e74-19288ae24138","species","t0060757","Tropidoneis lepidoptera","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3738dcb3-c19a-4457-bd75-3edd5fdb8c81","species","t0060677","Gomphonema subclavatum","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5d968ea7-45d1-4219-839d-15e397cb3468","species","t0060757","Plagiotropis lepidoptera","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"eb949a51-8d60-4f20-93d1-ebaa8ced15d7","species","t0100498","Synedra rumpen","Chromista","Coscinodiscophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7663ec95-2578-46dc-b89d-81077dc22c8e","species","t0043899","Schizopora flavipora","Fungi","Basidiomycetes","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"eaa92a82-44d5-46ba-9030-acb70a03a137","species","t0034271","Basidiobolus haptosporus","Fungi","Basidiobolomycetes","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34e333fb-92b7-4ce1-90fc-708ade60b21e","species","t0034271","Basidiobolus ranarum","Fungi","Basidiobolomycetes","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e584d7d5-86b7-407b-8ab4-7c61ac4cc15c","species","t0043367","Pseudospiropes rousselianus","Fungi","Dothideomycetes","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"964f6870-dde5-412f-ba31-73587e52915b","species","t0045611","Parvicorbicula superpositus","Protozoa","Zoomastigophora","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bca35744-230e-4388-98b5-d979d8247630","species","t0045895","Stephanoeca cupula","Protozoa","Zoomastigophora","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fcc28f1a-60d5-4af9-a1e1-ba1ddd71b28f","species","t0045236","Diploeca elongata","Protozoa","Zoomastigophora","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8e6b55f8-268c-4929-85ee-59cf37d2ac1f","species","t0045425","Guembelitria vivans","Protozoa","Granuloreticulosea","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"caf2302e-122e-448c-8fc1-ec3989628036","species","t0045120","Ceratium euarcuatum","Protozoa","Dinophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"0111232b-b4a1-47ad-b7d7-0c00d08f5681","species","t0045129","Ceratium incisum","Protozoa","Dinophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"829f3f2e-3182-4ac3-b3cf-0ff6131ebc67","species","t0045139","Ceratium praelongum","Protozoa","Dinophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"632220df-7a3d-4f80-966b-e3cdeb3ce1c0","species","t0045141","Ceratium sumatranum","Protozoa","Dinophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70703b18-1c05-4790-b08a-41d7cee8f27c","species","t0045144","Ceratium tripos","Protozoa","Dinophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b20fbdbb-9002-4780-a81e-31e2f11cde5a","species","t0045114","Ceratium carriense","Protozoa","Dinophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7666e269-fb54-4273-ae3c-bcc2a1a723c7","infraspecies","t0101129","Navicula virdula avenacea","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e750a90a-8219-449f-be4d-8817c7a72bc5","infraspecies","t0101136","Fallacia forcipata densestriata","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85da45fd-376f-4d99-b0ca-2c8882315e13","infraspecies","t0060677","Gomphonema longiceps subclavata","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17c68e29-c298-4f7e-8621-da1f4f077cc8","infraspecies","t0087341","Nitzschia frustulum perpusilla","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"990b7ce5-708c-45bd-aa68-86a596e3ed6f","infraspecies","t0087268","Nitzschia marginulata didyma","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65be379d-4cea-4a6a-82e0-2efc2c163e5f","infraspecies","t0101164","Aspergillus flavus microsporus","Fungi","Eurotiomycetes","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"af969c5a-eec2-4ad7-aca8-e6fe31d47592","infraspecies","t0101090","Candeina nitida nitida","Protozoa","Granuloreticulosea","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7f1f6921-757c-44e0-96f8-02779e2f7cb2","infraspecies","t0087524","Ceratium macroceros gallicum","Protozoa","Dinophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3d9639c4-7284-4007-98ed-23a0e816583c","infraspecies","t0087748","Ceratium pulchellum ipulchellum","Protozoa","Dinophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b4bc8eac-aaa6-4e5d-86dc-4325822828ea","infraspecies","t0087520","Ceratiomyxa fruticulosa porioides","Protozoa","Protosteliomycetes","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4967e423-2fba-4464-8a87-ad7b720090b0","species","t0072111","Araneus seminiger","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fd57d36c-5b76-42d7-8ff0-f3c2bcf3677b","species","t0078293","Chorizopes khanjanes","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49844695-882c-42c8-a510-964362d0bb91","species","t0072201","Argiope chloreis","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13e38fe1-f323-49f2-963b-10352f5b06c3","species","t0080206","Cyrtarachne schmidi","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8e58d1a9-cc08-40c0-91f4-6bf9080b413c","species","t0066855","Larinia phthisica","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"bc466fe5-cfb1-451c-a97d-79eaec2e2663","species","t0061934","Dolomedes sulfureus","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6fe8d290-3596-4242-85f0-ad5fe48cf624","species","t0071496","Anelosimus chonganicus","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"389dd802-bd19-4311-a32c-f2b8497e40f1","species","t0072214","Argyrodes flavescens","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4a50bb18-7115-463b-b199-e3f35cbdeacd","species","t0061745","Dipoena turriceps","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"770e80a2-7c15-4466-a67b-691f5937831b","species","t0068934","Meotipa picturata","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"0a1f3c88-0e94-4db9-862a-af2c5346c310","species","t0035990","Platnickina mneon","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"298d8fa6-be48-4cfd-898a-3acc67ea979d","species","t0071510","Angaeus rhombifer","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5eb2b89b-7ae0-4d2a-a515-180d71938b92","species","t0082654","Oxytate hoshizuna","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"b290a5a7-3e78-4d1f-91d9-d5e33d2bdc51","species","t0068408","Mallinella fulvipes","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"e70de28b-4a0b-4b24-a205-6012f0ec4f38","species","t0068409","Mallinella shimojanai","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"0ad67ca9-33e3-48e9-a059-eae5fc80f501","species","t0076307","Bathyphantes tongluensis","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7b675d44-5433-4df3-b30a-4567eb668853","species","t0081240","Neolinyphia nigripectoris","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ff8de1fd-95e7-4a4f-8c98-10c16954dc68","species","t0082140","Olios punctipes","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ca718211-ab90-4a06-8a63-c3943e1896ea","species","t0062213","Ebrechtella forcipata","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"492b02ae-41f0-466f-ace7-f44bb8a865e4","species","t0067900","Loxobates daitoensis","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4b0ac2bd-c483-4c6f-b247-e3d45e561556","species","t0084235","Phrynarachne mammillata","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"26915867-27d1-4da2-b135-dae6d908cb78","species","t0046476","Synema nangoku","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51efe2ba-60d4-47e8-9c3a-c9fe815c68a4","species","t0082392","Ordgarius hobsoni","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83e33ff1-757e-4fec-a9fe-8793b1c8f8da","species","t0072330","Asemonea tanikawai","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8aacd5f2-f294-4e27-ba0a-3b42ad7e80a6","species","t0081956","Ocrisiona frenata","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"c0cbc02a-93b4-4925-8a8a-1b6e81d0743c","species","t0036245","Plexippus petersi","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66b2b179-520d-4689-8802-eae47de5f50f","species","t0047349","Thyene imperialis","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ea6e4e6b-b634-4ecf-9acf-7526a0fd3bcb","species","t0062686","Enoplognatha caricis","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"eafe3302-bc3c-46d9-a218-330b6258c261","species","t0066939","Latrodectus elegans","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"a43547f5-fe32-4cbc-96ba-e6eebfc7ab41","species","t0066940","Latrodectus geometricus","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9c9e9f00-5632-4c6c-88f4-4e28a1595814","species","t0078428","Chrysso urbasae","Animalia","Arachnida","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"385526ef-62e9-430c-aadd-6176b6975146","species","t0089506","Merismopedia glauca","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24b1b121-2a0d-4698-8d3f-79dd23876272","species","t0089509","Merismopedia punctata","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ac0addb3-80ce-40f9-b386-426564936fb8","species","t0088865","Chroococcus minutus","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7bd1d9b7-0b1e-49a4-947f-3e329333c433","species","t0088866","Chroococcus tenax","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fc0af8d0-e69d-4187-9236-d8961ac3c811","species","t0088868","Chroococcus turgidus","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6e1c31fa-fa7c-4949-bb09-6d849452c8c0","species","t0091080","Aphanocapsa delicatissima","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"de71cb4d-c630-4c0b-98b5-3a7428fd3ece","species","t0089637","Microcystis aeruginosa","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1103a8bc-a14a-4b1f-92c1-32b7aa14217d","species","t0088997","Cyanodictyon reticulatum","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"a406ceb2-ffbf-4aab-a319-a958c85384d2","species","t0090116","Pseudanabaena limnetica","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"f5b3fc2b-bd4a-4ca1-97b4-16ee38f1493f","species","t0089283","Jaaginema geminatum","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6e88064f-b0ee-456f-a616-6d50a9371e49","species","t0089286","Jaaginema pseudogeminatum","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"d7cba8fc-c29b-49c2-9c37-56beb2005c8c","species","t0089439","Lyngbya majuscula","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"aa61eefa-92c6-4423-9d8b-0fcfe82e811c","species","t0089843","Oscillatoria brevis","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"cbb0b8bb-81a9-4eaf-b0c8-522226087b62","species","t0089848","Oscillatoria granulata","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99351f92-bd5b-42d6-9fe1-1e82cb8d79a6","species","t0089864","Oscillatoria willei","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"630c8a73-9a9f-4e56-b7c1-57e8738d4933","species","t0090066","Phormidium tortuosum","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9bb486cd-ab87-4564-a718-b7ff957fa72e","species","t0090076","Planktolyngbya limnetica","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2cc06bd8-62f4-4e85-8421-c6871880dbf4","species","t0078986","Collocalia marginata","Animalia","Aves","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"a5d6d3f3-7e4e-4b58-bf40-9e5064119e7a","species","t0051400","Homonopsis foederatana","Animalia","Insecta","native","","","NE","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"fddf6c6f-0b9d-4ce0-8fa3-33f7420dd632","infraspecies","t0099135","Theretra nessus nessus","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"edb83e5c-202b-464b-8bf8-cd096c91508f","species","t0088777","Trichodesmium erythraeum","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dad2c38f-bcd9-4126-bde3-574f5dc6b89d","species","t0089328","Komvophoron constrictum","Bacteria","Cyanophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64329761-1b29-4a8a-8c10-0ee91630181e","species","t0064817","Gracupica contra","Animalia","Aves","non-native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"838618fd-91b6-40ec-997e-7d4c3c48572c","species","t0060115","Navicula virdula","Chromista","Bacillariophyceae","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"485d2995-9adb-42cf-b3cd-d95918509017","species","t0096799","Drupa ricina","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11853926-696b-4a9e-98a5-e11155939d37","species","t0096374","Metriogryllacris magna","Animalia","Insecta","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8f6b21a6-23f8-478d-b894-08e59cb35429","species","t0096781","Doriprismatica atromarginata","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"511c9de3-8fac-4f34-ac7b-c6024cb44dbe","species","t0097468","Caloria indica","Animalia","Gastropoda","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3aea498c-a638-4e2b-99f8-ea9077952794","infraspecies","t0102329","Macropisthodon rudis rudis","Animalia","Reptilia","native","","","","","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

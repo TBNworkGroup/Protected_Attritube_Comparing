@@ -1,0 +1,18 @@
+"","taxonUUID","taxonRank","kingdom","simplifiedScientificName","new_iucn","protectedStatusTW","new_redlistTW","sensitiveCategory","sensitive","comparison_sensitive"
+"1","ecbad055-a7cb-4e58-b043-584821ae06ad","species","Animalia","Schismatogobius roxasi","EN","","","","輕度",FALSE
+"2","65253829-bc37-43ba-9033-3722241e9fbf","species","Animalia","Coris aygula","VU","","","","輕度",FALSE
+"3","d30e83f8-1e07-4549-8c5f-8e98fe9982a7","species","Animalia","Mobula japanica","EN","","","","輕度",FALSE
+"4","02751597-aa53-4e53-a842-e262344e149e","species","Animalia","Hemitrygon bennettii","VU","","","","輕度",FALSE
+"5","34b8e4bb-e743-4a9c-8df2-714d91af0170","species","Animalia","Dasyatis ushiei","VU","","","","輕度",FALSE
+"6","9e8d166a-c077-43fc-b599-d360e3629209","species","Animalia","Rhinobatos formosensis","CR","","","","輕度",FALSE
+"7","ca178842-256f-4d8d-9a4b-e9d0895b0333","species","Animalia","Centrophorus lusitanicus","EN","","","","輕度",FALSE
+"8","1b15da6b-2299-4647-b0cc-9b76d9bd5366","species","Animalia","Centrophorus granulosus","EN","","","","輕度",FALSE
+"9","4b366713-e73a-4da9-a691-d42d85365a11","species","Animalia","Stegostoma fasciatum","EN","","","","輕度",FALSE
+"10","753e5e65-e61b-4f35-93ed-9a82ac052a0b","species","Animalia","Cymbiola nobilis","EX","","","","輕度",FALSE
+"11","4b0f38c1-b6f8-471e-9d7e-8e510ec6ef42","species","Animalia","Millepora murrayi","EN","","","","輕度",FALSE
+"12","b74a5885-a88d-43b5-9a93-07787cc1f700","species","Animalia","Acropora danai","EN","","","","輕度",FALSE
+"13","876d481d-b826-416a-9742-fd7a8c39ad29","species","Animalia","Acropora rosaria","EN","","","","輕度",FALSE
+"14","f2600c6e-51ea-42cc-bd45-ae6d12541783","species","Animalia","Lophelia pertusa","VU","","","","輕度",FALSE
+"15","d1a7c39c-4e12-4bd8-b5a6-2fd344dfb35c","infraspecies","Animalia","Calidris falcinellus sibirica","VU","","","","輕度",FALSE
+"16","e6a3dfc3-82eb-4727-bcb3-3673f7307f43","species","Fungi","Homophron spadiceum","VU","","","","輕度",FALSE
+"17","a10973e9-a5d0-4158-b18b-a009bf8b7295","species","Fungi","Armillaria matsutake","VU","","","","輕度",FALSE
