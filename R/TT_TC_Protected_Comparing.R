@@ -1,6 +1,6 @@
 #依照TaiCOL進行TaxaTree的IUCN,國內紅皮書,保育類等更新
 #setting path ====
-setwd("F:/iucn")
+setwd("F:/Protected_Attritube_Comparing")
 getwd()
 rm(list=ls())
 ##library prep ====
@@ -12,11 +12,12 @@ library(tidyr)
 library(purrr)
 
 #import data ====
-TC_taxon <- read.csv("TaiCOL_taxon_20250429.csv")
-TT_name <- read.csv("taxatree_20250429.csv")
+TC_taxon <- read.csv("TaiCOL_taxon_20250828.csv")
+TC_taxon_api <- read.csv("TCsplist_20250903.csv")
+TT_name <- read.csv("taxatree_20250903.csv")
 
-TC_version <- "20250429"
-TT_version <- "20250429"
+TC_version <- "20250903"
+TT_version <- "20250903"
 
 #篩選重要欄位 ====
 TT_selected <- TT_name %>%
@@ -36,8 +37,8 @@ TT_selected  <- TT_selected  %>%
 #unique(TT_selected$taxonRank)
 #unique(TT_selected$endemism)
 
-TC_selected <- TC_taxon %>%
-  select(taxon_id,rank,simple_name,is_endemic,alien_type,iucn,redlist,protected) %>%
+TC_selected <- TC_taxon_api %>%
+  select(taxon_id,rank,simple_name,is_endemic,is_hybrid,alien_type,iucn,redlist,protected) %>%
   filter(rank %in% c("Species", "Subspecies", "Variety", "Form", "Special Form", "Hybrid Formula")) %>%
   mutate(
     name_parts = str_split(simple_name, " "),
@@ -46,7 +47,7 @@ TC_selected <- TC_taxon %>%
     genus = map_chr(name_parts_clean, ~ .x[1]),
     specificEpithet = map_chr(name_parts_clean, ~ .x[2] %||% NA_character_),
     infraspecies = map_chr(name_parts_clean, ~ .x[3] %||% NA_character_)) %>%
-  select(taxon_id,rank,new_simple_name,is_endemic,alien_type,iucn,redlist,protected,genus,specificEpithet,infraspecies)%>%
+  select(taxon_id,rank,new_simple_name,is_endemic,is_hybrid,alien_type,iucn,redlist,protected,genus,specificEpithet,infraspecies)%>%
     rename(new_iucn = iucn,
            new_protected = protected,
            new_redlistTW = redlist) 
@@ -191,7 +192,7 @@ IUCN_change_sp <- IUCN_change %>%
   left_join(TT_name[c(1,4,58)],by=c("taxonUUID"="parentUUID")) %>%
   rename(infrasp_name = simplifiedScientificName.y,
          infrasp_taxonUUID = taxonUUID.y ) %>%
-  left_join(compare.table[c(1,18)],by=c("infrasp_taxonUUID"="taxonUUID")) %>%
+  left_join(compare.table[c(1,19)],by=c("infrasp_taxonUUID"="taxonUUID")) %>%
   rename(new_iucn = new_iucn.y) %>%
   mutate(comparison_iucn = if_else(is.na(categoryIUCN) & is.na(new_iucn), TRUE, categoryIUCN == new_iucn))
 
@@ -228,7 +229,7 @@ IUCN_change_infrasp <- IUCN_change %>%
   filter(taxonRank == "infraspecies" & new_iucn == "") %>%
   select(taxonUUID,kingdom,taxonRank,simplifiedScientificName,categoryIUCN) %>%
   left_join(TT_name[c(1,4,5)],by="taxonUUID") %>%
-  left_join(compare.table[c(1,18)],by= c("parentUUID"="taxonUUID"))  %>%
+  left_join(compare.table[c(1,19)],by= c("parentUUID"="taxonUUID"))  %>%
   mutate(comparison_iucn = if_else(is.na(categoryIUCN) & is.na(new_iucn), TRUE, categoryIUCN == new_iucn))
 
 IUCN_change_infrasp_output <- IUCN_change_infrasp %>%
@@ -287,7 +288,7 @@ IUCN_change_final_output <- bind_rows(IUCN_change_sp_output, IUCN_change_infrasp
 
 write.csv(IUCN_change_final_output,"output_IUCN change/IUCN_change_final_output.csv",row.names = F)
 
-#IUCN比對 part III: bug遺珠 ====
+#IUCN比對 part III: 待新建分類群 ====
 TC_taxon_iucn_true <- TC_selected %>%
   filter(new_iucn != "")
 
@@ -306,10 +307,10 @@ extra_taxon_iucn_Plantae <- extra_rows %>%
   select(new_simple_name,taxon_id,kingdom,class,new_iucn) %>%
   filter(kingdom == "Plantae")
 
-write.csv(extra_taxon_iucn_Animalia, "output_IUCN change/extra_taxon_iucn_Animalia.csv",row.names = F)
-write.csv(extra_taxon_iucn_Plantae, "output_IUCN change/extra_taxon_iucn_Plantae.csv",row.names = F)
+#write.csv(extra_taxon_iucn_Animalia, "output_IUCN change/extra_taxon_iucn_Animalia.csv",row.names = F)
+#write.csv(extra_taxon_iucn_Plantae, "output_IUCN change/extra_taxon_iucn_Plantae.csv",row.names = F)
 
-#國內紅皮書比對 part I: 比對欄位====
+#國內紅皮書比對 part I: 比對欄位 ====
 if (!dir.exists("output_redlistTW change ")) {
   dir.create("output_redlistTW change", recursive = TRUE)
 }
@@ -331,19 +332,19 @@ redlistTW_NA <- compare.table %>%
 
 write.csv(redlistTW_TRUE,file="output_redlistTW change/redlistTW_TRUE.csv",row.names = F)
 
-#國內紅皮書比對 part II: TT需修改的分類群====
+#國內紅皮書比對 part II: TT需修改的分類群 ====
 redlistTW_change <- redlistTW_change %>%
   rbind(redlistTW_NA) %>%
   select(taxonUUID,taxonRank,kingdom,class,simplifiedScientificName,categoryRedlistTW,new_redlistTW,categoryRedlistVersionTW) 
 #NA="不適用"需手動調整
 
-#種改為無，獨立確認
+#種改為無
 redlistTW_change_sp <- redlistTW_change %>%
   filter(taxonRank == "species" & new_redlistTW == "") %>%
   left_join(TT_name[c(1,4,58)],by=c("taxonUUID"="parentUUID")) %>%
   rename(infrasp_name = simplifiedScientificName.y,
          infrasp_taxonUUID = taxonUUID.y ) %>%
-  left_join(compare.table[c(1,19)],by=c("infrasp_taxonUUID"="taxonUUID")) %>%
+  left_join(compare.table[c(1,20)],by=c("infrasp_taxonUUID"="taxonUUID")) %>%
   rename(new_redlistTW = new_redlistTW.y) %>%
   mutate(comparison_redlistTW = if_else(is.na(categoryRedlistTW) & is.na(new_redlistTW), TRUE,categoryRedlistTW == new_redlistTW))
 
@@ -358,11 +359,11 @@ redlistTW_change_sp_output <- redlistTW_change_sp %>%
 
 #write.csv(redlistTW_change_sp_output,"output_redlistTW change/redlistTW_change_sp_output.csv",row.names = F)
 
-#種下改為無，獨立確認 
+#種下改為無
 redlistTW_change_infrasp <- redlistTW_change %>%
   filter(taxonRank == "infraspecies" & new_redlistTW == "") %>%
   left_join(TT_name[c(1,4,5)],by="taxonUUID") %>%
-  left_join(compare.table[c(1,19)],by= c("parentUUID"="taxonUUID"))  %>%
+  left_join(compare.table[c(1,20)],by= c("parentUUID"="taxonUUID"))  %>%
   rename(new_redlistTW = new_redlistTW.y) %>%
   mutate(comparison_redlistTW = if_else(is.na(categoryRedlistTW) & is.na(new_redlistTW), TRUE, categoryRedlistTW == new_redlistTW),
          redlistTW_date = ifelse(new_redlistTW != "" | is.na(new_redlistTW), "2024-12-01", NA),
@@ -384,15 +385,15 @@ redlistTW_change_infrasp_output_date <- redlistTW_change_infrasp %>%
 
 #國內紅皮書需修改
 redlistTW_change_output <- redlistTW_change %>%
-  anti_join(redlistTW_change_sp, by = "taxonUUID") %>%
-  anti_join(redlistTW_change_infrasp, by = "taxonUUID") %>%
+  anti_join(redlistTW_change_sp, by = "taxonUUID") %>% #扣除改為無的種
+  anti_join(redlistTW_change_infrasp, by = "taxonUUID") %>% #扣除改為無的種下
   filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia")) %>%
   mutate(source_process = "redlistTW_change_output") %>%
   select(taxonUUID,taxonRank,kingdom,class,simplifiedScientificName,categoryRedlistTW,new_redlistTW,source_process)
 
 redlistTW_change_output_date <- redlistTW_change %>%
-  anti_join(redlistTW_change_sp, by = "taxonUUID") %>%
-  anti_join(redlistTW_change_infrasp, by = "taxonUUID") %>%
+  anti_join(redlistTW_change_sp, by = "taxonUUID") %>% #扣除改為無的種
+  anti_join(redlistTW_change_infrasp, by = "taxonUUID") %>% #扣除改為無的種下
   filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia")) %>%
   mutate(redlistTW_date = ifelse(new_redlistTW != "" | is.na(new_redlistTW), "2024-12-01", NA),
          comparison_date = categoryRedlistVersionTW == redlistTW_date) %>%
@@ -419,15 +420,15 @@ redlistTW_change_final_output <- redlistTW_change_final_output %>%
                                     "NE"  ="未評估（NE, Not Evaluated）",
                                     "EW" = "野外滅絕（EW, Extinct in the Wild）"),
          new_redlistTW = recode(new_redlistTW,
-                                "NVU" = "易危（VU, Vulnerable）",
-                                "NLC" = "暫無危機（LC, Least Concern）",
-                                "NNT" = "接近受脅（NT, Near Threatened）", 
+                                "VU" = "易危（VU, Vulnerable）",
+                                "LC" = "暫無危機（LC, Least Concern）",
+                                "NT" = "接近受脅（NT, Near Threatened）", 
                                 "RE" = "區域滅絕（RE, Regionally Extinct）", 
-                                "NEN" = "瀕危（EN, Endangered）",
-                                "NCR" = "極危（CR, Critically Endangered）",
-                                "DD"   =  "資料缺乏（DD, Data Deficient）",
+                                "EN" = "瀕危（EN, Endangered）",
+                                "CR" = "極危（CR, Critically Endangered）",
+                                "DD" = "資料缺乏（DD, Data Deficient）",
                                 "EX" = "滅絕（EX, Extinct）",
-                                "NE"  ="未評估（NE, Not Evaluated）",
+                                "NE" = "未評估（NE, Not Evaluated）",
                                 "EW" = "野外滅絕（EW, Extinct in the Wild）"),
          new_redlistTW = replace_na(new_redlistTW, "不適用"),
          comparison_redlistTW = if_else(is.na(categoryRedlistTW) & is.na(new_redlistTW), TRUE, categoryRedlistTW == new_redlistTW)) %>%
@@ -439,7 +440,7 @@ redlistTW_change_final_output_date <- bind_rows(redlistTW_change_infrasp_output_
 
 write.csv(redlistTW_change_final_output_date,"output_redlistTW change/redlistTW_change_final_output_date.csv",row.names = F)
 
-#國內紅皮書比對 part III: bug遺珠====
+#國內紅皮書比對 part III: 待新建分類群 ====
 TC_taxon_redlistTW_true <- TC_selected %>%
   filter(new_redlistTW != "")
 
@@ -460,10 +461,10 @@ extra_taxon_redlistTW_Plantae <- extra_rows %>%
   select(new_simple_name,taxon_id,kingdom,class,new_redlistTW) %>%
   filter(kingdom == "Plantae")
 
-write.csv(extra_taxon_redlistTW_Animalia, "output_redlistTW change/extra_taxon_redlistTW_Animalia.csv",row.names = F,fileEncoding = "UTF-8")
-write.csv(extra_taxon_redlistTW_Plantae, "output_redlistTW change/extra_taxon_redlistTW_Plantae.csv",row.names = F,fileEncoding = "UTF-8")
+#write.csv(extra_taxon_redlistTW_Animalia, "output_redlistTW change/extra_taxon_redlistTW_Animalia.csv",row.names = F,fileEncoding = "UTF-8")
+#write.csv(extra_taxon_redlistTW_Plantae, "output_redlistTW change/extra_taxon_redlistTW_Plantae.csv",row.names = F,fileEncoding = "UTF-8")
 
-#國內紅皮書比對 part IV: 出版年月====
+#國內紅皮書比對 part IV: 出版年月 ====
 TT_taxon_redlistTW_true <- TT_selected %>%
   filter(categoryRedlistTW != "") %>%
   filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia")) %>%
@@ -503,7 +504,7 @@ protected_NA <- compare.table %>%
 
 write.csv(protected_TRUE,file="output_protected change/protected_TRUE.csv",row.names = F)
 
-#保育類比對 part II: TT需修改的分類群====
+#保育類比對 part II: TT需修改的分類群 ====
 protected_change <- protected_change %>%
   rbind(protected_NA) %>%
   select(taxonUUID,taxonRank,kingdom,class,simplifiedScientificName,nativeness,protectedStatusTW,new_protected) 
@@ -514,7 +515,7 @@ protected_change_sp <- protected_change %>%
   left_join(TT_name[c(1,4,58)],by=c("taxonUUID"="parentUUID")) %>%
   rename(infrasp_name = simplifiedScientificName.y,
          infrasp_taxonUUID = taxonUUID.y ) %>%
-  left_join(compare.table[c(1,20)],by=c("infrasp_taxonUUID"="taxonUUID")) %>%
+  left_join(compare.table[c(1,21)],by=c("infrasp_taxonUUID"="taxonUUID")) %>%
   rename(new_protected = new_protected.y) %>%
   mutate(comparison_protected = if_else(is.na(protectedStatusTW) & is.na(new_protected), TRUE,protectedStatusTW == new_protected))
 
@@ -531,7 +532,7 @@ protected_change_sp_output <- protected_change_sp %>%
 protected_change_infrasp <- protected_change %>%
   filter(taxonRank == "infraspecies" & new_protected == "") %>%
   left_join(TT_name[c(1,4,5)],by="taxonUUID") %>%
-  left_join(compare.table[c(1,20)],by= c("parentUUID"="taxonUUID"))  %>%
+  left_join(compare.table[c(1,21)],by= c("parentUUID"="taxonUUID"))  %>%
   rename(new_protected = new_protected.y) %>%
   mutate(comparison_protected = if_else(is.na(protectedStatusTW) & is.na(new_protected), TRUE,protectedStatusTW == new_protected))
 
@@ -575,7 +576,7 @@ protected_change_final_output <- bind_rows(protected_change_sp_output, protected
 
 write.csv(protected_change_final_output,"output_protected change/protected_change_final_output.csv",row.names = F)
 
-#保育類比對 part III: bug遺珠====
+#保育類比對 part III: 待新建分類群 ====
 TC_taxon_protected_true <- TC_selected %>%
   filter(new_protected != "")
 
@@ -594,8 +595,24 @@ extra_taxon_protected_Plantae <- extra_rows %>%
   select(new_simple_name,taxon_id,kingdom,class,new_protected) %>%
   filter(kingdom == "Plantae")
 
-write.csv(extra_taxon_protected_Animalia, "output_protected change/extra_taxon_protected_Animalia.csv",row.names = F)
-write.csv(extra_taxon_protected_Plantae, "output_protected change/extra_taxon_protected_Plantae.csv",row.names = F)
+#write.csv(extra_taxon_protected_Animalia, "output_protected change/extra_taxon_protected_Animalia.csv",row.names = F)
+#write.csv(extra_taxon_protected_Plantae, "output_protected change/extra_taxon_protected_Plantae.csv",row.names = F)
+
+#合併需新增的分類群
+if (!dir.exists("output_add extra taxon ")) {
+  dir.create("output_add extra taxon", recursive = TRUE) 
+}
+
+extra_Animalia <- extra_taxon_iucn_Animalia %>% 
+  full_join(extra_taxon_protected_Animalia,by= c("taxon_id","new_simple_name","kingdom","class")) %>% 
+  full_join(extra_taxon_redlistTW_Animalia,by= c("taxon_id","new_simple_name","kingdom","class"))
+
+extra_Plantae <- extra_taxon_iucn_Plantae %>% 
+  full_join(extra_taxon_protected_Plantae,by= c("taxon_id","new_simple_name","kingdom","class")) %>% 
+  full_join(extra_taxon_redlistTW_Plantae,by= c("taxon_id","new_simple_name","kingdom","class"))
+
+write.csv(extra_Animalia, "output_add extra taxon/extra_Animalia.csv",row.names = F)
+write.csv(extra_Plantae, "output_add extra taxon/extra_Plantae.csv",row.names = F)
 
 #敏感狀態修正====
 if (!dir.exists("output_sensitive change")) {
@@ -713,7 +730,7 @@ TT_selected_light_sensitive_wrong <- combine.table %>%
 write.csv(TT_selected_light_sensitive_wrong, "output_sensitive change/TT_selected_light_sensitive_wrong.csv",row.names = F)
 
 #總結表單 ====
-output_folders <- c("output_namecheck","output_sensitive change", "output_redlistTW change","output_IUCN change","output_protected change")
+output_folders <- c("output_namecheck","output_sensitive change", "output_redlistTW change","output_IUCN change","output_protected change","output_add extra taxon")
 # 取得所有CSV檔案
 all_csv_files <- list.files(path = output_folders, pattern = "\\.csv$", recursive = TRUE, full.names = TRUE)
 
@@ -740,3 +757,4 @@ print(summary_table)
 
 # 可選：輸出為 summary 表單
 write.csv(summary_table, "summary_table.csv", row.names = FALSE)
+
