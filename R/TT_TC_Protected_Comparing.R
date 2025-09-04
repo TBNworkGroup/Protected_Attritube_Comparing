@@ -1,6 +1,6 @@
 #依照TaiCOL進行TaxaTree的IUCN,國內紅皮書,保育類等更新
 #setting path ====
-setwd("F:/Protected_Attritube_Comparing")
+setwd("D:/Protected_Attritube_Comparing")
 getwd()
 rm(list=ls())
 ##library prep ====
@@ -81,12 +81,12 @@ combine.table <- left_join(TT_selected, TC_selected, by = "taxon_id") %>%
                                     "其他應予保育之野生動物" = "III",
                                     "文化資產保存法：珍貴稀有植物" = "1"),
          categoryRedlistTW = recode(categoryRedlistTW,
-                                    "易危（VU, Vulnerable）" = "NVU",
-                                    "暫無危機（LC, Least Concern）"  = "NLC",
-                                    "接近受脅（NT, Near Threatened）" = "NNT", 
+                                    "易危（VU, Vulnerable）" = "VU",
+                                    "暫無危機（LC, Least Concern）"  = "LC",
+                                    "接近受脅（NT, Near Threatened）" = "NT", 
                                     "區域滅絕（RE, Regionally Extinct）" = "RE", 
-                                    "瀕危（EN, Endangered）" = "NEN",
-                                    "極危（CR, Critically Endangered）"= "NCR",
+                                    "瀕危（EN, Endangered）" = "EN",
+                                    "極危（CR, Critically Endangered）"= "CR",
                                     "資料缺乏（DD, Data Deficient）"   = "DD" ,
                                     "滅絕（EX, Extinct）" = "EX",
                                     "不適用"   = "NA",
@@ -350,7 +350,7 @@ redlistTW_change_sp <- redlistTW_change %>%
 
 redlistTW_change_sp_output <- redlistTW_change_sp %>%
   filter(is.na(infrasp_taxonUUID) | comparison_redlistTW == FALSE ) %>% #無種下，且iucn需改為無 
-  filter(!class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia")) %>%
+  filter(!class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia","Insecta")) %>%
   filter(kingdom != "Plantae") %>%
   mutate(source_process = "redlistTW_change_sp_output") %>%
   select(taxonUUID,taxonRank,kingdom,class,simplifiedScientificName.x,categoryRedlistTW,new_redlistTW.x,source_process) %>%
@@ -371,12 +371,14 @@ redlistTW_change_infrasp <- redlistTW_change %>%
 
 redlistTW_change_infrasp_output <- redlistTW_change_infrasp %>%
   filter(is.na(comparison_redlistTW) | comparison_redlistTW == FALSE) %>% #紅皮書類別需依照種階層修改
+  filter(!class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia","Insecta")) %>%
+  filter(kingdom != "Plantae") %>%
   mutate(source_process = "redlistTW_change_infrasp_output") %>%
   select(taxonUUID,taxonRank,kingdom,class,simplifiedScientificName,categoryRedlistTW,new_redlistTW,source_process)
 
 redlistTW_change_infrasp_output_date <- redlistTW_change_infrasp %>%
   filter(comparison_date == FALSE) %>%
-  filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia")) %>%
+  filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia","Insecta")) %>%
   mutate(source_process = "redlistTW_change_infrasp_output") %>%
   select(taxonUUID,taxonRank,kingdom,class,simplifiedScientificName,new_redlistTW,redlistTW_date,source_process)
 
@@ -387,16 +389,20 @@ redlistTW_change_infrasp_output_date <- redlistTW_change_infrasp %>%
 redlistTW_change_output <- redlistTW_change %>%
   anti_join(redlistTW_change_sp, by = "taxonUUID") %>% #扣除改為無的種
   anti_join(redlistTW_change_infrasp, by = "taxonUUID") %>% #扣除改為無的種下
-  filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia")) %>%
+  filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia","Insecta")) %>%
   mutate(source_process = "redlistTW_change_output") %>%
   select(taxonUUID,taxonRank,kingdom,class,simplifiedScientificName,categoryRedlistTW,new_redlistTW,source_process)
 
 redlistTW_change_output_date <- redlistTW_change %>%
   anti_join(redlistTW_change_sp, by = "taxonUUID") %>% #扣除改為無的種
   anti_join(redlistTW_change_infrasp, by = "taxonUUID") %>% #扣除改為無的種下
-  filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia")) %>%
-  mutate(redlistTW_date = ifelse(new_redlistTW != "" | is.na(new_redlistTW), "2024-12-01", NA),
-         comparison_date = categoryRedlistVersionTW == redlistTW_date) %>%
+  filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia","Insecta")) %>%
+  mutate(redlistTW_date = case_when(
+    class == "Insecta" & (new_redlistTW != "" | is.na(new_redlistTW)) ~ "2025-05-01",
+    (new_redlistTW != "" | is.na(new_redlistTW)) ~ "2024-12-01",
+    TRUE ~ NA_character_
+  ),
+    comparison_date = categoryRedlistVersionTW == redlistTW_date) %>%
   filter(comparison_date == FALSE) %>%
   mutate(source_process = "redlistTW_change_infrasp_output") %>%
   select(taxonUUID,taxonRank,kingdom,class,simplifiedScientificName,new_redlistTW,redlistTW_date,source_process)
@@ -408,7 +414,7 @@ redlistTW_change_final_output <- bind_rows(redlistTW_change_sp_output, redlistTW
 
 redlistTW_change_final_output <- redlistTW_change_final_output %>%
   mutate(categoryRedlistTW = recode(categoryRedlistTW,
-                                    "NVU" = "國家易危（NVU，Nationally Vulnerable）",
+                                    "VU" = "國家易危（NVU，Nationally Vulnerable）",
                                     "NLC" = "國家暫無危機（NLC，Nationally Least Concern）",
                                     "NNT" = "國家接近受脅（NNT，Nationally Near-threatened）", 
                                     "RE" = "區域滅絕（RE, Regionally Extinct）", 
@@ -454,8 +460,12 @@ extra_rows <- left_join(extra_rows, TC_taxon[,c("taxon_id","kingdom","class")], 
 extra_taxon_redlistTW_Animalia <- extra_rows %>%
   select(new_simple_name,taxon_id,kingdom,class,new_redlistTW) %>%
   filter(kingdom == "Animalia") %>%
-  filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia")) %>%
-  mutate(redlistTW_date = "2024-12-01")
+  filter(class %in% c("Actinopterygii","Aves","Amphibia","Reptilia","Mammalia","Insecta")) %>%
+  mutate(redlistTW_date =  case_when(
+    class == "Insecta" & (new_redlistTW != "" | is.na(new_redlistTW)) ~ "2025-05-01",
+    (new_redlistTW != "" | is.na(new_redlistTW)) ~ "2024-12-01",
+    TRUE ~ NA_character_
+  ))
 
 extra_taxon_redlistTW_Plantae <- extra_rows %>%
   select(new_simple_name,taxon_id,kingdom,class,new_redlistTW) %>%
@@ -629,7 +639,7 @@ sensitive_change <- combine.table %>%
   mutate(
     iucn_sensitive = ifelse(new_iucn %in% c("EX", "EW", "CR", "EN", "VU"), "sensitive", NA),
     protected_sensitive = ifelse(protectedStatusTW %in% c("I", "II", "III"), "sensitive", NA),
-    redlistTW_sensitive = ifelse(new_redlistTW %in% c("EX", "EW", "RE", "NCR", "NEN", "NVU"), "sensitive", NA),
+    redlistTW_sensitive = ifelse(new_redlistTW %in% c("EX", "EW", "RE", "CR", "EN", "VU"), "sensitive", NA),
     sensitive = case_when(
       sensitiveCategory %in% c("分類群不開放", "重度") ~ sensitiveCategory,
       nativeness == "native" & 
@@ -672,12 +682,12 @@ extra_taxon_sensitive_Animalia_TT <- extra_rows %>%
                                     "其他應予保育之野生動物" = "III",
                                     "文化資產保存法：珍貴稀有植物" = "1"),
          categoryRedlistTW = recode(categoryRedlistTW,
-                                    "易危（VU, Vulnerable）" = "NVU",
-                                    "暫無危機（LC, Least Concern）"  = "NLC",
-                                    "接近受脅（NT, Near Threatened）" = "NNT", 
+                                    "易危（VU, Vulnerable）" = "VU",
+                                    "暫無危機（LC, Least Concern）"  = "LC",
+                                    "接近受脅（NT, Near Threatened）" = "NT", 
                                     "區域滅絕（RE, Regionally Extinct）" = "RE", 
-                                    "瀕危（EN, Endangered）" = "NEN",
-                                    "極危（CR, Critically Endangered）"= "NCR",
+                                    "瀕危（EN, Endangered）" = "EN",
+                                    "極危（CR, Critically Endangered）"= "CR",
                                     "資料缺乏（DD, Data Deficient）"   = "DD" ,
                                     "滅絕（EX, Extinct）" = "EX",
                                     "不適用"   = "NA",
@@ -695,7 +705,7 @@ extra_taxon_sensitive_Animalia_TT <- extra_rows %>%
   mutate(
     iucn_sensitive = ifelse(categoryIUCN %in% c("EX", "EW", "CR", "EN", "VU"), "sensitive", NA),
     protected_sensitive = ifelse(protectedStatusTW %in% c("I", "II", "III"), "sensitive", NA),
-    redlistTW_sensitive = ifelse(categoryRedlistTW %in% c("EX", "EW", "RE", "NCR", "NEN", "NVU"), "sensitive", NA),
+    redlistTW_sensitive = ifelse(categoryRedlistTW %in% c("EX", "EW", "RE", "CR", "EN", "VU"), "sensitive", NA),
     sensitive = case_when(
       sensitiveCategory %in% c("分類群不開放", "重度") ~ sensitiveCategory,
       nativeness == "native" & 
@@ -709,12 +719,13 @@ extra_taxon_sensitive_Animalia_TT <- extra_rows %>%
 write.csv(extra_taxon_sensitive_Animalia_TT , "output_sensitive change/extra_taxon_sensitive_Animalia_TT.csv",row.names = F)
 
 ## 使用以上邏輯，產生出TT_selected中，sensitiveCategory "輕度" 不符合條件的表單
-TT_selected_light_sensitive_wrong <- combine.table %>%
+TT_selected_light_sensitive_wrong <- compare.table  %>%
+  filter(comparison_name == FALSE)  %>%
   filter(sensitiveCategory == "輕度") %>%
   mutate(
     iucn_sensitive = ifelse(new_iucn %in% c("EX", "EW", "CR", "EN", "VU"), "sensitive", NA),
     protected_sensitive = ifelse(protectedStatusTW %in% c("I", "II", "III"), "sensitive", NA),
-    redlistTW_sensitive = ifelse(new_redlistTW %in% c("EX", "EW", "RE", "NCR", "NEN", "NVU"), "sensitive", NA),
+    redlistTW_sensitive = ifelse(new_redlistTW %in% c("EX", "EW", "RE", "CR", "EN", "VU"), "sensitive", NA),
     sensitive_check = case_when(
       nativeness == "native" &
         rowSums(across(c(iucn_sensitive, protected_sensitive, redlistTW_sensitive), ~ . == "sensitive"), na.rm = TRUE) > 0 ~ "輕度",
@@ -724,6 +735,8 @@ TT_selected_light_sensitive_wrong <- combine.table %>%
   # 過濾出不符合條件的
   filter(sensitive_check != "輕度" | is.na(sensitive_check)) 
 
+
+##需優化，種下需套用TT規則
 #TT_selected_light_sensitive_wrong <- TT_selected_light_sensitive_wrong %>%
  # filter(taxonRank=="species")
 

@@ -1,1 +1,39 @@
 "","taxonUUID","taxonRank","kingdom","simplifiedScientificName","new_iucn","protectedStatusTW","new_redlistTW","sensitiveCategory","sensitive","comparison_sensitive"
+"1","652f825e-fe39-4d90-90a3-40f0d507e7b2","infraspecies","Animalia","Gallinago gallinago gallinago","","","VU","","輕度",FALSE
+"2","f8eccee8-904c-490c-8f36-e6de99e370d4","species","Animalia","Halpe gamma","","","VU","","輕度",FALSE
+"3","52b8e9d8-2bdc-4487-a7e9-97d4587dba1a","species","Animalia","Satarupa majasra","","","VU","","輕度",FALSE
+"4","ff69777c-2e4f-4a00-bc0a-b15edeffcdc0","species","Animalia","Praethoressa horishana","","","EN","","輕度",FALSE
+"5","fa31a045-f1eb-47b3-baf7-b4a53c843914","species","Animalia","Antigius attilia","","","VU","","輕度",FALSE
+"6","fb16e422-ee9f-4e57-ab3c-0f84a0543d76","species","Animalia","Hypolycaena kina","","","VU","","輕度",FALSE
+"7","17d7fa9d-4e62-463c-9192-0e27a18c4d1f","species","Animalia","Satyrium esakii","","","VU","","輕度",FALSE
+"8","66a60866-649c-408e-a67c-5705d2df82d7","species","Animalia","Sibataniozephyrus kuafui","","","CR","","輕度",FALSE
+"9","5e84ae79-aaca-4905-8072-e19deca8ec31","species","Animalia","Everes lacturnus","","","EN","","輕度",FALSE
+"10","f2ed7980-c6a7-4601-9b04-b2113f922ef2","species","Animalia","Iratsume orsedice","","","VU","","輕度",FALSE
+"11","a5f6dad0-a90c-44df-9070-d34661eac654","species","Animalia","Argynnis hyperbius","","","VU","","輕度",FALSE
+"12","b72ebec4-a153-45e8-ab73-087662ada8cb","species","Animalia","Danaus genutia","","","VU","","輕度",FALSE
+"13","618f5231-fcea-4106-b54f-44e7b3895a4a","species","Animalia","Lethe rohria","","","EN","","輕度",FALSE
+"14","15b476fe-8ffd-42ee-8e90-708fa70c1aed","species","Animalia","Melanitis leda","LC","","VU","","輕度",FALSE
+"15","55c23813-3111-4808-b58f-0f54951d1dd5","species","Animalia","Mycalesis gotama","","","VU","","輕度",FALSE
+"16","ee98cd00-012f-499f-b9ac-a156d0c80d2a","species","Animalia","Ypthima wenlungi","","","VU","","輕度",FALSE
+"17","8fc3996c-6be4-46ec-b81f-8786bd3e69aa","species","Animalia","Kaniska canace","","","VU","","輕度",FALSE
+"18","12b8ecd9-a79c-427a-a193-9cef3cc980f9","species","Animalia","Papilio epycides","","","VU","","輕度",FALSE
+"19","22aeccd5-45a1-4d9b-9187-a30b8b269fd7","species","Animalia","Papilio hopponis","","","VU","","輕度",FALSE
+"20","c0485e56-1ea4-4e31-9c24-712ea7a4b4db","species","Animalia","Papilio xuthus","","","VU","","輕度",FALSE
+"21","81164c61-13e6-43c7-a4d1-16f7bcb97655","species","Animalia","Papilio dialis","","","VU","","輕度",FALSE
+"22","93e5e2c4-b205-46ed-b1a4-964d14ae2b93","species","Animalia","Papilio machaon","","","CR","","輕度",FALSE
+"23","5226360b-eea2-4fa0-88a8-adabe05306ec","species","Animalia","Byasa confusus","","","VU","","輕度",FALSE
+"24","3febc5dc-ffc2-4ae5-bfb3-8cb38891ec65","species","Animalia","Eurema laeta","","","EN","","輕度",FALSE
+"25","0a739688-f1cd-4485-83c1-a36f3f0225f4","infraspecies","Animalia","Antigius attilia obsoleta","","","VU","","輕度",FALSE
+"26","2041d825-8649-46b3-a5bc-71a086d4f167","infraspecies","Animalia","Hypolycaena kina inari","","","VU","","輕度",FALSE
+"27","be517edf-2c74-47a7-95c5-9e76cff9d544","infraspecies","Animalia","Everes lacturnus rileyi","","","EN","","輕度",FALSE
+"28","4cba83f4-1861-4369-8c41-6df60772e1a7","infraspecies","Animalia","Iratsume orsedice suzukii","","","VU","","輕度",FALSE
+"29","a3b11003-c453-4340-969c-0e2966b9039c","infraspecies","Animalia","Lethe rohria daemoniaca","","","EN","","輕度",FALSE
+"30","220e2baa-cccf-4533-90f6-620666b5dc72","infraspecies","Animalia","Mycalesis gotama nanda","","","VU","","輕度",FALSE
+"31","50dc1c42-f585-4de7-a72f-14bea37fe42e","infraspecies","Animalia","Kaniska canace drilon","","","VU","","輕度",FALSE
+"32","ac5c9565-4a0a-4e8c-a087-6d33e09de187","infraspecies","Animalia","Papilio epycides melanoleucus","","","VU","","輕度",FALSE
+"33","5b5a0956-71e9-455b-bf02-693413489467","infraspecies","Animalia","Papilio dialis tatsuta","","","VU","","輕度",FALSE
+"34","bd297b34-8b6a-4844-990a-290071b13e30","infraspecies","Animalia","Papilio machaon sylvinus","","","CR","","輕度",FALSE
+"35","2bc0f2fa-1aae-4d10-a801-a5f40e49b3b0","infraspecies","Animalia","Byasa confusus mansonensis","","","VU","","輕度",FALSE
+"36","3dfad919-1c28-4477-a4e2-f67be832b4f2","infraspecies","Animalia","Eurema brigitta hainana","","","VU","","輕度",FALSE
+"37","f81dd4dc-11cc-4b58-95dc-8d28e9f4e8e5","infraspecies","Animalia","Eurema laeta punctissima","","","EN","","輕度",FALSE
+"38","1b97f4c9-1d7f-410e-acd5-1230cc66da6d","infraspecies","Animalia","Aporia gigantea cheni","","","VU","","輕度",FALSE
