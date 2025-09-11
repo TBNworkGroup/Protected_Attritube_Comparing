@@ -14,10 +14,10 @@ library(purrr)
 #import data ====
 TC_taxon <- read.csv("TaiCOL_taxon_20250828.csv")
 TC_taxon_api <- read.csv("TCsplist_20250903.csv")
-TT_name <- read.csv("taxatree_20250903.csv")
+TT_name <- read.csv("taxatree_20250911.csv")
 
 TC_version <- "20250903"
-TT_version <- "20250903"
+TT_version <- "20250911"
 
 #篩選重要欄位 ====
 TT_selected <- TT_name %>%
