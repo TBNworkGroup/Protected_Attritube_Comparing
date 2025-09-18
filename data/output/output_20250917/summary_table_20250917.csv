@@ -1,17 +1,17 @@
-"TC_version","TT_version","folder_name","file_name","row_count"
-"20250917","20250917","output_namecheck","combine.table_namecheck .csv",916
-"20250917","20250917","output_namecheck","combine.table_nomatch.csv",0
-"20250917","20250917","output_namecheck","TT_selected_noID.csv",190
-"20250917","20250917","output_sensitive change","extra_taxon_sensitive_Animalia_TT.csv",0
-"20250917","20250917","output_sensitive change","sensitive_change_output.csv",1
-"20250917","20250917","output_sensitive change","TT_selected_light_sensitive_wrong.csv",0
-"20250917","20250917","output_redlistTW change","extra_date_redlistTW_Animalia_TT.csv",0
-"20250917","20250917","output_redlistTW change","redlistTW_change_final_output.csv",0
-"20250917","20250917","output_redlistTW change","redlistTW_change_final_output_date.csv",0
-"20250917","20250917","output_redlistTW change","redlistTW_TRUE.csv",50681
-"20250917","20250917","output_IUCN change","IUCN_change_final_output.csv",6
-"20250917","20250917","output_IUCN change","IUCN_TRUE.csv",50761
-"20250917","20250917","output_protected change","protected_change_final_output.csv",7
-"20250917","20250917","output_protected change","protected_TRUE.csv",50803
-"20250917","20250917","output_add extra taxon","extra_Animalia.csv",299
-"20250917","20250917","output_add extra taxon","extra_Plantae.csv",5368
+TC_version,TT_version,folder_name,file_name,row_count,
+20250917,20250917,output_namecheck,combine.table_namecheck .csv,916,需確認學名是否為有效名
+20250917,20250917,output_namecheck,combine.table_nomatch.csv,0,尚未對應
+20250917,20250917,output_namecheck,TT_selected_noID.csv,190,TT需補上taxon_id
+20250917,20250917,output_sensitive change,extra_taxon_sensitive_Animalia_TT.csv,0,改為無
+20250917,20250917,output_sensitive change,sensitive_change_output.csv,1,改為輕度
+20250917,20250917,output_sensitive change,TT_selected_light_sensitive_wrong.csv,0,改為無
+20250917,20250917,output_redlistTW change,extra_date_redlistTW_Animalia_TT.csv,0,紅皮書日期尚未更新為2024-12的
+20250917,20250917,output_redlistTW change,redlistTW_change_final_output.csv,0,需修改國內紅皮書
+20250917,20250917,output_redlistTW change,redlistTW_change_final_output_date.csv,0,需修改紅皮書日期
+20250917,20250917,output_redlistTW change,redlistTW_TRUE.csv,50681,
+20250917,20250917,output_IUCN change,IUCN_change_final_output.csv,6,需修改IUCN
+20250917,20250917,output_IUCN change,IUCN_TRUE.csv,50761,
+20250917,20250917,output_protected change,protected_change_final_output.csv,7,需修改保育狀態
+20250917,20250917,output_protected change,protected_TRUE.csv,50803,
+20250917,20250917,output_add extra taxon,extra_Animalia.csv,299,TC有，需在TT新增
+20250917,20250917,output_add extra taxon,extra_Plantae.csv,5368,TC有，需在TT新增
