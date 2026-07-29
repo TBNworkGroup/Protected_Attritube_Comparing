@@ -1,0 +1,5 @@
+"","taxonUUID","taxonRank","kingdom","simplifiedScientificName","new_iucn","protectedStatusTW","new_redlistTW","sensitiveCategory","sensitive","comparison_sensitive"
+"1","2d70d761-6b25-49b0-8039-719a68adbc28","infraspecies","Animalia","Podiceps auritus auritus","","",NA,"","輕度",FALSE
+"2","dc638eb5-5456-451e-b504-918ae78f9d16","species","Animalia","Sympetrum baccha","","","RE","","輕度",FALSE
+"3","17cae73a-6031-4ab9-a152-f0b0c377148b","infraspecies","Animalia","Sympetrum baccha baccha","","","RE","","輕度",FALSE
+"4","ce128479-d544-417d-a4c2-d1d715a7673f","species","Animalia","Circus aeruginosus","LC","","","","輕度",FALSE
