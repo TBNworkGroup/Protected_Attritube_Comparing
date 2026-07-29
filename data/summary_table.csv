@@ -1,0 +1,13 @@
+"TC_version","TT_version","folder_name","file_name","processing_scenario","check_scope","row_count"
+"20260722","20260729","output_sensitive change","extra_taxon_sensitive_Animalia_TT.csv","需修改敏感狀態-1","TT內部",0
+"20260722","20260729","output_sensitive change","sensitive_change_output.csv","需修改敏感狀態","TT與TC",43
+"20260722","20260729","output_sensitive change","TT_selected_light_sensitive_wrong.csv","需修改敏感狀態-2","TT內部",0
+"20260722","20260729","output_redlistTW change","extra_date_redlistTW_Animalia_TT.csv","需修改國內紅皮書評估出版年月-1","TT內部",0
+"20260722","20260729","output_redlistTW change","redlistTW_change_output.csv","需修改國內紅皮書評估等級","TT與TC",846
+"20260722","20260729","output_redlistTW change","redlistTW_TRUE.csv","國內紅皮書資料一致","TT與TC",53835
+"20260722","20260729","output_IUCN change","IUCN_change_output.csv","需修改IUCN等級","TT與TC",1740
+"20260722","20260729","output_IUCN change","IUCN_TRUE.csv","IUCN資料一致","TT與TC",52941
+"20260722","20260729","output_protected change","protected_change_output.csv","需修改保育類等級","TT與TC",5
+"20260722","20260729","output_protected change","protected_TRUE.csv","保育類資料一致","TT與TC",54676
+"20260722","20260729","output_add extra taxon","extra_Animalia.csv","需新增動物分類群","TT與TC",349
+"20260722","20260729","output_add extra taxon","extra_Plantae.csv","需新增植物分類群","TT與TC",3240

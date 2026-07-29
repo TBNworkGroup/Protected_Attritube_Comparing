@@ -13,12 +13,12 @@ library(tidyr)
 library(purrr)
 
 #import data ====
-TC_taxon <- read.csv("input/TC/TaiCOL_taxon_20260424.csv")
-TC_taxon_api <- read.csv("input/TC/TCsplist_20260602.csv")
-TT_name <- read.csv("input/TT/taxatree_20260604.csv")
+TC_taxon <- read.csv("input/TC/TaiCOL_taxon_20260625.csv")
+TC_taxon_api <- read.csv("input/TC/TCsplist_20260722.csv")
+TT_name <- read.csv("input/TT/taxatree_20260729.csv")
 
-TC_version <- "20260602"
-TT_version <- "20260604"
+TC_version <- "20260722"
+TT_version <- "20260729"
 
 #篩選重要欄位 ====
 TT_selected <- TT_name %>%
@@ -88,6 +88,17 @@ combine.table <- left_join(TT_selected, TC_selected, by = "taxon_id") %>%
                            "LR/nt"= "NT",
                            "LR/cd" = "LR",
                            "LR/lc" = "LC"),
+         new_redlistTW = recode(new_redlistTW,
+                           "NVU" = "VU",
+                           "NLC"  = "LC",
+                           "NNT" = "NT", 
+                           "RE" = "RE", 
+                           "NEN" = "EN",
+                           "NCR"= "CR",
+                           "DD"   = "DD" ,
+                           "EX）" = "EX",
+                           "NE"  = "NE",
+                           "EW" = "EW"),
          rank = recode(rank,
                        "Phylum" = "phylum",       
                        "Class"  = "class",
@@ -302,7 +313,7 @@ compare.table <- combine.table  %>%
 combine.table_namecheck <- compare.table  %>%
   filter(comparison_name == FALSE) 
 
-write.csv(combine.table_namecheck ,"output/output_namecheck/combine.table_namecheck .csv",row.names = F)
+write.csv(combine.table_namecheck ,"output/output_namecheck/combine.table_namecheck.csv",row.names = F)
 
 #IUCN比對 part I: 比對欄位====
 if (!dir.exists("output/output_IUCN change")) {
@@ -389,8 +400,8 @@ redlistTW_label <- c(
 
 redlistTW_change_output <- compare.table %>%
     filter(comparison_name,!comparison_redlistTW) %>%
-    mutate(categoryIUCN = recode(categoryRedlistTW, !!!redlistTW_label),
-         corrected_iucn = recode(corrected_redlistTW, !!!redlistTW_label),
+    mutate(categoryRedlistTW = recode(categoryRedlistTW, !!!redlistTW_label),
+         corrected_redlistTW = recode(corrected_redlistTW, !!!redlistTW_label),
          source_process ="corrected_redlistTW"  ) %>%
   select(taxonUUID,taxonRank,kingdom,simplifiedScientificName,
          current_redlistTW = categoryRedlistTW,suggested_redlistTW = corrected_redlistTW,source_process)
@@ -494,13 +505,14 @@ protected_label <- c(
  
 protected_change_output <- compare.table %>%
   filter(comparison_name,!comparison_protected) %>%
-  mutate(categoryprotected = recode(protectedStatusTW, !!!protected_label),
+  mutate(protectedStatusTW = recode(protectedStatusTW, !!!protected_label),
          corrected_protected = recode(corrected_protected, !!!protected_label),
          source_process ="corrected_protected"  ) %>%
   select(taxonUUID,taxonRank,kingdom,simplifiedScientificName,
          current_protected = protectedStatusTW,suggested_protected = corrected_protected,source_process)
 
-write.csv(protected_change_output,"output/output_protected change/redlistTW_change_output.csv",row.names = F)
+
+write.csv(protected_change_output,"output/output_protected change/protected_change_output.csv",row.names = F)
 
 #保育類比對 part III: 待新建分類群 ====
 TC_taxon_protected_true <- TC_selected %>%
@@ -679,6 +691,7 @@ summary_table <- lapply(output_folders, function(folder) {
 # 檔案說明表
 file_description <- tribble(
   ~file_name, ~processing_scenario, ~check_scope,
+ 
   
   "combine.table_namecheck.csv", "TT與TC對應的學名不一致", "TT與TC",
   "combine.table_nomatch.csv", "無法用taxon_id對應到學名", "TT與TC",
@@ -688,16 +701,15 @@ file_description <- tribble(
   "sensitive_change_output.csv", "需修改敏感狀態", "TT與TC",
   "TT_selected_light_sensitive_wrong.csv", "需修改敏感狀態-2", "TT內部",
   
-  "extra_date_redlistTW_Animalia_TT.csv", "需修改國內紅皮書評估出版年月-1", "TT內部",
-  "redlistTW_change_final_output.csv", "需修改國內紅皮書評估等級", "TT與TC",
-  "redlistTW_change_final_output_date.csv", "需修改國內紅皮書評估出版年月", "TT與TC",
   
+  "extra_date_redlistTW_Animalia_TT.csv", "需修改國內紅皮書評估出版年月-1", "TT內部",
+  "redlistTW_change_output.csv", "需修改國內紅皮書評估等級", "TT與TC",
   "redlistTW_TRUE.csv", "國內紅皮書資料一致", "TT與TC",
   
-  "IUCN_change_final_output.csv", "需修改IUCN等級", "TT與TC",
+  "IUCN_change_output.csv", "需修改IUCN等級", "TT與TC",
   "IUCN_TRUE.csv", "IUCN資料一致", "TT與TC",
   
-  "protected_change_final_output.csv", "需修改保育類等級", "TT與TC",
+  "protected_change_output.csv", "需修改保育類等級", "TT與TC",
   "protected_TRUE.csv", "保育類資料一致", "TT與TC",
   
   "extra_Animalia.csv", "需新增動物分類群", "TT與TC",
@@ -714,3 +726,4 @@ print(summary_table)
 
 # 可選：輸出為 summary 表單
 write.csv(summary_table, "summary_table.csv", row.names = FALSE)
+
