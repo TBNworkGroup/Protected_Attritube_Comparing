@@ -1,6 +1,6 @@
 "taxonUUID","taxonRank","kingdom","simplifiedScientificName","current_protected","suggested_protected","source_process"
-"52de4e15-0819-4346-bd73-505256a30d9e","species","Animalia","Pteropus dasymallus","II","瀕臨絕種保育類野生動物","corrected_protected"
-"96acaa9b-0412-4853-8168-fccd12166426","species","Animalia","Prionailurus bengalensis","II","瀕臨絕種保育類野生動物","corrected_protected"
+"52de4e15-0819-4346-bd73-505256a30d9e","species","Animalia","Pteropus dasymallus","珍貴稀有保育類野生動物","瀕臨絕種保育類野生動物","corrected_protected"
+"96acaa9b-0412-4853-8168-fccd12166426","species","Animalia","Prionailurus bengalensis","珍貴稀有保育類野生動物","瀕臨絕種保育類野生動物","corrected_protected"
 "ce128479-d544-417d-a4c2-d1d715a7673f","species","Animalia","Circus aeruginosus","","珍貴稀有保育類野生動物","corrected_protected"
 "59ee7a82-d97b-46ff-b242-23d21e25b2b1","species","Animalia","Malayemys subtrijuga","","珍貴稀有保育類野生動物","corrected_protected"
 "a97fb864-f463-4461-ba88-bb466990721a","species","Animalia","Ara macao","","瀕臨絕種保育類野生動物","corrected_protected"

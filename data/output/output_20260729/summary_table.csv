@@ -1,7 +1,4 @@
 "TC_version","TT_version","folder_name","file_name","processing_scenario","check_scope","row_count"
-"20260722","20260729","output_namecheck","combine.table_namecheck.csv","TT與TC對應的學名不一致","TT與TC",674
-"20260722","20260729","output_namecheck","combine.table_nomatch.csv","無法用taxon_id對應到學名","TT與TC",0
-"20260722","20260729","output_namecheck","TT_selected_noID.csv","TT中無taxon_id","TT內部",49
 "20260722","20260729","output_sensitive change","extra_taxon_sensitive_Animalia_TT.csv","需修改敏感狀態-1","TT內部",0
 "20260722","20260729","output_sensitive change","sensitive_change_output.csv","需修改敏感狀態","TT與TC",43
 "20260722","20260729","output_sensitive change","TT_selected_light_sensitive_wrong.csv","需修改敏感狀態-2","TT內部",0
